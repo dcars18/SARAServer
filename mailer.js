@@ -7,7 +7,7 @@ const nodemailer = require('nodemailer');
 *  I will deny your pull request if you have this info in your directory.
 */
 var fs = require('fs');
-var gmailAppInfo = fs.readFileSync('GmailAppInfo.txt', 'utf8');
+var gmailAppInfo = fs.readFileSync('gmailappinfo.txt', 'utf8');
 gmailAppInfo = gmailAppInfo.split('\n');
 
 // create reusable transporter object using the default SMTP transport

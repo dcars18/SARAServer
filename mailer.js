@@ -22,7 +22,7 @@ let transporter = nodemailer.createTransport({
 // setup email data with unicode symbols
 let mailOptions = {
 	from: '"SARA App Alerts" <SARAAppAlerts@gmail.com>', // sender address
-	to: 'deca222@g.uky.edu', // list of receivers
+	to: '', // list of receivers
 	subject: 'SARA Report Generated', // Subject line
 	text: 'Hello world ?', // plain text body
 	html: '<b>Hello world ?</b>' // html body

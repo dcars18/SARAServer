@@ -12,6 +12,7 @@
 		"url": "git://github.com/dcars18/SARAServer/"
 	},
 	"dependencies": {
+		"body-parser": "^1.13.2",
 		"ejs": "^2.3.3",
 		"express": "^4.13.1",
 		"express-session": "^1.11.3",

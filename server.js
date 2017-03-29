@@ -6,11 +6,11 @@ app.use(require('body-parser').json({ extended: true }));
 
 app.post('/SARAEmail', function (req, res) {
 	//res.send('Hello World!')
-	console.log(req.body.name);
+	//console.log(req.body.name);
 	//res.header("Access-Control-Allow-Origin", "*");
     //res.header("Access-Control-Allow-Headers", "X-Requested-With");
 	
-	res.send("Email would be sent...")
+	res.send(req.body)
 	//res.sendStatus(200);
 	
 	//mailer.sendMail('dakota.amiot@uky.edu')
